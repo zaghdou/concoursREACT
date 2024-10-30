@@ -1,0 +1,40 @@
+.PanelInput {
+    height: 100px !important;
+}
+
+.rewardInput{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    /* margin-top: -250px;*/
+    /* margin-left: -400px; */
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.486);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.rewardInput p {
+    font-size: 1.2rem;
+}
+.inputCST {
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(128, 0, 117, 0.596);
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.btn-code:hover {
+    background-color: rgba(168, 180, 0, 0.548);
+}
+

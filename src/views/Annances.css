@@ -1,0 +1,39 @@
+
+.card-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  overflow: hidden; 
+}
+
+
+.card-image {
+  flex-shrink: 0;
+  height: 200px; 
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+
+.card-content {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+
+.card-description {
+  margin-top: auto; 
+  padding-top: 10px;
+  max-height: 50px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
